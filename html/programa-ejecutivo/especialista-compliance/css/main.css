@@ -35,7 +35,7 @@ footer {
 }
 h1 {
     color:#2b82ab;
-    font-size:2.25rem;
+    font-size:1.8rem;
     font-weight:800;
 }
 h2 {
@@ -43,11 +43,15 @@ h2 {
     font-size:2rem;
     margin-bottom:1.5rem;
 }
+label {
+    margin-bottom:0;
+}
 input {
     background-color:#ededed!important;
 }
 button {
     background-color:#2b82ab!important;
+    border-color:#2b82ab!important;
     font-weight:700!important;
     letter-spacing:.25rem;
 }
@@ -144,96 +148,3 @@ button {
 /*.sticky .content {
     padding-top:60px;
 }*/
-
-/* https://spritegen.website-performance.org/  */
-.sprite {
-    background-image:url(../img/spritesheet.png);
-    background-repeat:no-repeat;
-    display:inline-block;
-    float:left;
-    margin-right:.5rem;
-}
-
-.sprite-ico-break {
-    width:44px;
-    height:38px;
-    background-position:-1px -1px;
-}
-
-.sprite-ico-contacto {
-    width:33px;
-    height:31px;
-    background-position:-47px -1px;
-}
-
-.sprite-ico-estacionamiento {
-    width:40px;
-    height:38px;
-    background-position:-82px -1px;
-}
-
-.sprite-ico-facebook {
-    width:40px;
-    height:40px;
-    background-position:-124px -1px;
-}
-
-.sprite-ico-fecha {
-    width:35px;
-    height:38px;
-    background-position:-1px -43px;
-}
-
-.sprite-ico-gotop {
-    width:34px;
-    height:34px;
-    background-position:-38px -43px;
-}
-
-.sprite-ico-hora {
-    width:38px;
-    height:38px;
-    background-position:-74px -43px;
-}
-
-.sprite-ico-linkedin {
-    width:40px;
-    height:40px;
-    background-position:-114px -43px;
-}
-
-.sprite-ico-objetivo-1 {
-    width:58px;
-    height:58px;
-    background-position:-1px -85px;
-}
-
-.sprite-ico-objetivo-2 {
-    width:51px;
-    height:51px;
-    background-position:-61px -85px;
-}
-
-.sprite-ico-objetivo-3 {
-    width:58px;
-    height:47px;
-    background-position:-166px -1px;
-}
-
-.sprite-ico-objetivo-4 {
-    width:49px;
-    height:55px;
-    background-position:-156px -50px;
-}
-
-.sprite-ico-preguntas {
-    width:31px;
-    height:31px;
-    background-position:-114px -107px;
-}
-
-.sprite-ico-whatsapp {
-    width:32px;
-    height:32px;
-    background-position:-147px -107px;
-}

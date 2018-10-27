@@ -1,0 +1,129 @@
+/* https://spritegen.website-performance.org/  */
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display:inline-block;
+    float:left;
+    margin-right:.5rem;
+}
+
+.sprite-ico-break {
+    width: 44px;
+    height: 38px;
+    background-position: -1px -1px;
+}
+
+.sprite-ico-contacto {
+    width: 33px;
+    height: 31px;
+    background-position: -47px -1px;
+}
+
+.sprite-ico-estacionamiento {
+    width: 44px;
+    height: 38px;
+    background-position: -82px -1px;
+}
+
+.sprite-ico-facebook {
+    width: 40px;
+    height: 40px;
+    background-position: -128px -1px;
+}
+
+.sprite-ico-fecha {
+    width: 44px;
+    height: 38px;
+    background-position: -170px -1px;
+}
+
+.sprite-ico-hora {
+    width: 44px;
+    height: 38px;
+    background-position: -1px -41px;
+}
+
+.sprite-ico-linkedin {
+    width: 40px;
+    height: 40px;
+    background-position: -47px -41px;
+}
+
+.sprite-ico-objetivo-1 {
+    width: 62px;
+    height: 62px;
+    background-position: -170px -41px;
+}
+
+.sprite-ico-objetivo-10 {
+    width: 62px;
+    height: 62px;
+    background-position: -1px -105px;
+}
+
+.sprite-ico-objetivo-11 {
+    width: 62px;
+    height: 62px;
+    background-position: -65px -105px;
+}
+
+.sprite-ico-objetivo-2 {
+    width: 62px;
+    height: 62px;
+    background-position: -129px -105px;
+}
+
+.sprite-ico-objetivo-3 {
+    width: 62px;
+    height: 62px;
+    background-position: -1px -169px;
+}
+
+.sprite-ico-objetivo-4 {
+    width: 62px;
+    height: 62px;
+    background-position: -65px -169px;
+}
+
+.sprite-ico-objetivo-5 {
+    width: 62px;
+    height: 62px;
+    background-position: -129px -169px;
+}
+
+.sprite-ico-objetivo-6 {
+    width: 62px;
+    height: 62px;
+    background-position: -234px -1px;
+}
+
+.sprite-ico-objetivo-7 {
+    width: 62px;
+    height: 62px;
+    background-position: -234px -65px;
+}
+
+.sprite-ico-objetivo-8 {
+    width: 62px;
+    height: 62px;
+    background-position: -193px -129px;
+}
+
+.sprite-ico-objetivo-9 {
+    width: 62px;
+    height: 62px;
+    background-position: -193px -193px;
+}
+
+.sprite-ico-preguntas {
+    width: 31px;
+    height: 31px;
+    background-position: -89px -65px;
+}
+
+.sprite-ico-whatsapp {
+    width: 32px;
+    height: 32px;
+    background-position: -122px -65px;
+}

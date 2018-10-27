@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/theme-default.min.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../inc/sprites.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Programa Ejecutivo de Especialista en Compliance - AENOR Perú</title>
     <meta property="og:title" content="Programa Ejecutivo de Especialista en Compliance - AENOR Perú">
@@ -61,12 +62,16 @@
                 SOLICITAR INFORMACIÓN
               </h1>
               <hr>
-              <form id="formulario" action="enviardatos.php" method="POST" style="display:none">
+              <form id="formulario" action="http://certificacionperu.com/inc/enviardatos.php" method="POST" style="display:none">
                 <input type="hidden" name="fuente" value="Email">
                 <input type="hidden" name="titulo" value="Programa Ejecutivo de Especialista en Compliance">
                 <div class="form-group">
                   <label for="nombre">Nombre:</label>
                   <input type="text" class="form-control" name="nombre" id="nombre" data-validation="required">
+                </div>
+                <div class="form-group">
+                  <label for="apellido">Apellido:</label>
+                  <input type="text" class="form-control" name="apellido" id="apellido" data-validation="required">
                 </div>
                 <div class="form-group">
                   <label for="correo">Correo Electrónico:</label>
@@ -183,7 +188,7 @@
         <div class="col-md">
           <span class="icono">
             <i class="sprite sprite-ico-whatsapp"></i>
-            Whatsapp: <br> <strong><a href="https://api.whatsapp.com/send?phone=51980506875">+51 980 506 875</a></strong>
+            Whatsapp: <br> <strong><a href="https://api.whatsapp.com/send?phone=51966272313">+51 966 272 313</a></strong>
           </span>
         </div>
       </div>
@@ -208,17 +213,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
     <script>
-      var url = new URL(window.location.href);
-      var rpta = url.searchParams.get("rpta");
-      if (rpta == 'ok') {
-        $('#formulario').hide();
-        $('#respuesta').show();
-      } else {
-        $('#respuesta').hide();
-        $('#formulario').show();
-      }
-    </script>
-    <script>
       window.onscroll = function() {myFunction()};
       var navbar = document.getElementById("navbar");
       var sticky = navbar.offsetTop;
@@ -230,6 +224,14 @@
         }
       }
       $(function() {
+        var rpta = window.location.search.split('rpta=')[1];
+        if (rpta == 'ok') {
+          $('#formulario').hide();
+          $('#respuesta').show();
+        } else {
+          $('#respuesta').hide();
+          $('#formulario').show();
+        }
         $.validate({
           lang:'es',
           scrollToTopOnError:false

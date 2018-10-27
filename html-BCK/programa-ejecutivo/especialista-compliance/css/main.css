@@ -1,0 +1,243 @@
+body {
+    font-family:'Raleway', sans-serif;
+}
+a, a:hover {
+    color:#2b82ab;
+    text-decoration:none;
+}
+strong {
+    font-weight:700;
+}
+header,
+.menu {
+    margin-bottom:1rem;
+    margin-top:1rem;
+}
+footer {
+    background-color:#252c2f;
+    font-size:.85rem;
+    padding-bottom:1rem;
+    padding-top:1rem;
+}
+.icono {
+    display:block;
+    font-size:.8rem;
+    line-height:1.25;
+    margin-top:1rem;
+}
+.principal {
+    background-color:#252c2f;
+    padding-bottom:1rem;
+    padding-top:1rem;
+}
+.formulario {
+
+}
+h1 {
+    color:#2b82ab;
+    font-size:1.8rem;
+    font-weight:800;
+}
+h2 {
+    color:#2b82ab;
+    font-size:2rem;
+    margin-bottom:1.5rem;
+}
+label {
+    margin-bottom:0;
+}
+input {
+    background-color:#ededed!important;
+}
+button {
+    background-color:#2b82ab!important;
+    border-color:#2b82ab!important;
+    font-weight:700!important;
+    letter-spacing:.25rem;
+}
+.content {
+    margin-bottom:1.5rem;
+    padding-bottom:1.5rem;
+}
+.programa {
+    background-color:#2b82ab;
+    line-height:1.25;
+    padding-top:1.5rem;
+}
+.form-error {
+    display:none!important;
+}
+.respuesta {
+    font-size:2.25rem;
+}
+
+@media (max-width:575px) {
+    body {
+        font-size:.9rem;
+    }
+    #navbar a {
+        border:none!important;
+        font-size:.9rem;
+        padding:0 .5rem 0 0!important;
+    }
+    #navbar a:last-child {
+        padding-right:0!important;
+    }
+    h2 {
+        margin-bottom:.25rem;
+    }
+}
+@media (max-width:767px) {
+    header img {
+        height:30px!important;
+    }
+    h3 {
+        font-size:1.5rem;
+    }
+    .principal .container {
+        padding-left:0;
+        padding-right:0;
+    }
+}
+@media (min-width:768px) {
+    
+}
+@media (min-width:992px) {
+    header,
+    .menu {
+        margin-bottom:3rem;
+        margin-top:3rem;
+    }
+    .icono {
+        margin-bottom:0;
+        margin-top:0;
+    }
+    .principal {
+        padding-bottom:3rem;
+        padding-top:3rem;
+    }
+    .certificacion {
+        padding-top:3rem;
+    }
+    footer {
+        padding-bottom:3rem;
+        padding-top:3rem;
+    }
+}
+
+/* navbar */
+#navbar {
+    background-color:#2b82ab;
+    overflow:hidden;
+    padding:1rem .5rem!important;
+    z-index:9;
+}
+#navbar a {
+    color:#fefefe;
+    display:inline-block;
+    padding:0 1rem;
+    text-decoration:none;
+}
+.sticky {
+    left:0;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+}
+/*.sticky .content {
+    padding-top:60px;
+}*/
+
+/* https://spritegen.website-performance.org/  */
+.sprite {
+    background-image:url(../img/spritesheet.png);
+    background-repeat:no-repeat;
+    display:inline-block;
+    float:left;
+    margin-right:.5rem;
+}
+
+.sprite-ico-break {
+    width:44px;
+    height:38px;
+    background-position:-1px -1px;
+}
+
+.sprite-ico-contacto {
+    width:33px;
+    height:31px;
+    background-position:-47px -1px;
+}
+
+.sprite-ico-estacionamiento {
+    width:40px;
+    height:38px;
+    background-position:-82px -1px;
+}
+
+.sprite-ico-facebook {
+    width:40px;
+    height:40px;
+    background-position:-124px -1px;
+}
+
+.sprite-ico-fecha {
+    width:35px;
+    height:38px;
+    background-position:-1px -43px;
+}
+
+.sprite-ico-gotop {
+    width:34px;
+    height:34px;
+    background-position:-38px -43px;
+}
+
+.sprite-ico-hora {
+    width:38px;
+    height:38px;
+    background-position:-74px -43px;
+}
+
+.sprite-ico-linkedin {
+    width:40px;
+    height:40px;
+    background-position:-114px -43px;
+}
+
+.sprite-ico-objetivo-1 {
+    width:58px;
+    height:58px;
+    background-position:-1px -85px;
+}
+
+.sprite-ico-objetivo-2 {
+    width:51px;
+    height:51px;
+    background-position:-61px -85px;
+}
+
+.sprite-ico-objetivo-3 {
+    width:58px;
+    height:47px;
+    background-position:-166px -1px;
+}
+
+.sprite-ico-objetivo-4 {
+    width:49px;
+    height:55px;
+    background-position:-156px -50px;
+}
+
+.sprite-ico-preguntas {
+    width:31px;
+    height:31px;
+    background-position:-114px -107px;
+}
+
+.sprite-ico-whatsapp {
+    width:32px;
+    height:32px;
+    background-position:-147px -107px;
+}
