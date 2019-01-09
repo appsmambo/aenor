@@ -3,9 +3,9 @@
 .sprite {
     background-image: url(spritesheet.png);
     background-repeat: no-repeat;
-    display:inline-block;
-    float:left;
-    margin-right:.5rem;
+    display: inline-block;
+    float: left;
+    margin-right: 3px;
 }
 
 .sprite-ico-break {
@@ -68,52 +68,58 @@
     background-position: -65px -105px;
 }
 
-.sprite-ico-objetivo-2 {
+.sprite-ico-objetivo-12 {
     width: 62px;
     height: 62px;
     background-position: -129px -105px;
 }
 
-.sprite-ico-objetivo-3 {
+.sprite-ico-objetivo-2 {
     width: 62px;
     height: 62px;
     background-position: -1px -169px;
 }
 
-.sprite-ico-objetivo-4 {
+.sprite-ico-objetivo-3 {
     width: 62px;
     height: 62px;
     background-position: -65px -169px;
 }
 
-.sprite-ico-objetivo-5 {
+.sprite-ico-objetivo-4 {
     width: 62px;
     height: 62px;
     background-position: -129px -169px;
 }
 
-.sprite-ico-objetivo-6 {
+.sprite-ico-objetivo-5 {
     width: 62px;
     height: 62px;
     background-position: -234px -1px;
 }
 
-.sprite-ico-objetivo-7 {
+.sprite-ico-objetivo-6 {
     width: 62px;
     height: 62px;
     background-position: -234px -65px;
 }
 
-.sprite-ico-objetivo-8 {
+.sprite-ico-objetivo-7 {
     width: 62px;
     height: 62px;
     background-position: -193px -129px;
 }
 
-.sprite-ico-objetivo-9 {
+.sprite-ico-objetivo-8 {
     width: 62px;
     height: 62px;
     background-position: -193px -193px;
+}
+
+.sprite-ico-objetivo-9 {
+    width: 62px;
+    height: 62px;
+    background-position: -298px -1px;
 }
 
 .sprite-ico-preguntas {
